@@ -1,12 +1,10 @@
 import Main from 'src/components/main';
-import TemplateTask from 'src/components/home/templates/templateTask';
-import TemplateListItems from 'src/components/home/templates/templateListItems';
+import Template from 'src/components/home/templates/template';
 export default function Home() {
   return (
     <>
       <Main className="pt-0" id="top-main">
-        <TemplateTask />
-        <TemplateListItems />
+        <Template />
       </Main>
     </>
   );

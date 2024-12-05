@@ -6,7 +6,6 @@ import './globals.css';
 import { AppProviders } from 'src/contexts';
 
 import LayoutWrapper from 'src/components/common/container/LayoutWrapper';
-import Header from 'src/components/header';
 import Footer from 'src/components/footer';
 
 export const metadata: Metadata = {
@@ -26,7 +25,6 @@ export default function RootLayout({
       >
         <AppProviders>
           <LayoutWrapper>
-            <Header />
             {children}
             <Footer />
           </LayoutWrapper>

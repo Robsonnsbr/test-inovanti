@@ -13,11 +13,12 @@ export const CharacterProvider = ({ children }: any) => {
     const fetchCharacters = async () => {
       setLoading(true);
       try {
-        const response = await fetch(`/api/characters?name=${searchTerm}`);
-        const data = await response.json();
+        // const response = await fetch(`/api/characters?name=${searchTerm}`);
+        // const data = await response.json();
+        const data = null;
         setCharacters(data || []);
       } catch (error) {
-        console.error('Erro ao buscar personagens:', error);
+        console.error('Erro ao buscar dados:', error);
       } finally {
         setLoading(false);
       }

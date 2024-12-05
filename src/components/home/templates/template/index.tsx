@@ -1,7 +1,7 @@
 import React from 'react';
 import ContainerMedium from 'src/components/common/container/ContainerMedium';
 
-function TemplateTask() {
+function Template() {
   return (
     <section className="global-section">
       <ContainerMedium id="container-create-item">
@@ -11,4 +11,4 @@ function TemplateTask() {
   );
 }
 
-export default TemplateTask;
+export default Template;
