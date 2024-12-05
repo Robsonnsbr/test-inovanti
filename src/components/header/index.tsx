@@ -2,7 +2,6 @@
 import React from 'react';
 import './style/contentHeader.css';
 import ContainerMedium from '../common/container/ContainerMedium';
-import { SearchBar } from './components/SearchBar';
 // import Image from 'next/image';
 import Link from 'next/link';
 
@@ -27,12 +26,7 @@ function Header() {
                 loading="lazy"
                 alt="imagem-monichara-linkedIn"
               /> */}
-              <h3 className="w-full text-base hidden sm:block">
-                Rick And Morty
-              </h3>
-              <h3 className="w-full text-xs block sm:hidden">R&M</h3>
             </Link>
-            <SearchBar />
           </div>
         </div>
       </ContainerMedium>
