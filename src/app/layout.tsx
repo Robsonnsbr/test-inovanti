@@ -6,7 +6,7 @@ import './globals.css';
 import { AppProviders } from 'src/contexts';
 
 import LayoutWrapper from 'src/components/common/container/LayoutWrapper';
-import Footer from 'src/components/footer';
+// import Footer from 'src/components/footer';
 
 export const metadata: Metadata = {
   title: 'todo'
@@ -26,7 +26,7 @@ export default function RootLayout({
         <AppProviders>
           <LayoutWrapper>
             {children}
-            <Footer />
+            {/* <Footer /> */}
           </LayoutWrapper>
         </AppProviders>
       </body>

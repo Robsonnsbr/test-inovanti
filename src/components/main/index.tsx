@@ -5,7 +5,7 @@ interface IMainProps extends React.HTMLAttributes<HTMLDivElement> {}
 const Main = ({ children, className, ...props }: IMainProps) => {
   return (
     <main
-      className={`global-height-main flex w-full flex-col items-center pt-16 ${className}`}
+      className={`global-height-main flex w-full flex-col items-center ${className}`}
       id="main"
       {...props}
     >

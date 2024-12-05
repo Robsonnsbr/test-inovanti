@@ -5,15 +5,10 @@ interface FooterProps extends HTMLAttributes<HTMLDivElement> {}
 
 const Footer = ({ ...rest }: FooterProps) => {
   return (
-    <footer {...rest} className="global-height-footer  text-black">
+    <footer {...rest} className="global-height-footer  text-black bg-white">
       <hr className={`border  border-mediumGray`} />
       <section className="global-section pb-8">
-        <ContainerMedium id="container-bottom-footer">
-          <p className="m-auto w-fit text-center font-inter  text-deepGray bg-transparent text-xs">
-            ©Copyright <strong>Robson Monteiro</strong>. Todos direitos
-            reservados.
-          </p>
-        </ContainerMedium>
+        <ContainerMedium id="container-bottom-footer"></ContainerMedium>
       </section>
     </footer>
   );
